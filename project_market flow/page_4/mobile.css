@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  background: white;
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: row;
+  align-items: center;
+}
+
+.marketflow {
+  text-align: center;
+  flex: 1;
+}
+
+.marketflow img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  padding-top: 20px;
+}
+
+.marketflow h1 {
+  font-size: 28px;
+  color: #406180;
+}
+
+.login-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  gap: 15px;
+  padding: 30px;
+  text-align: center;
+}
+
+.login-form h2 {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+input {
+  padding: 14px;
+  border: 1px solid #5875b4;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #3b5998;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2d4373;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .marketflow img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .marketflow h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .login-form {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+  }
+
+  .login-form h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  input {
+    padding: 12px;
+  }
+
+  button {
+    padding: 12px;
+  }
+}

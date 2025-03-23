@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+.container {
+  display: flex;
+  background: white;
+  width: 1100px;
+  height: 700px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.marketflow img {
+  width: 655px;
+  height: 688px;
+  flex-shrink: 0;
+  padding-top: 45px;
+}
+.marketflow h1 {
+  padding: 35px 0px 0px 25px;
+  color: #406180;
+}
+.login-form {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 395px;
+  height: 400px;
+  gap: 17px;
+  margin: 10px 2px 3px 70px;
+  padding: 65px 55px 32px 0px;
+}
+h2 {
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+p {
+  font-size: 14px;
+  color: #666;
+}
+form {
+  display: flex;
+
+  flex-direction: column;
+  gap: 12px;
+}
+label {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+input {
+  padding: 10px;
+  border: 1px solid #3b5998;
+  border-radius: 6px;
+}
+.remember {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+button {
+  background-color: #3b5998;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.Forget {
+  text-align: center;
+  margin-bottom: 5px;
+}
+button:hover {
+  background-color: #2d4373;
+}
+a {
+  color: #3b5998;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.social-login button {
+  border: 1px solid #ccc;
+  background: white;
+  color: black;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.social-login button:hover {
+  background: #bbc8e4;
+}

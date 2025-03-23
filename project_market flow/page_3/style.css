@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+.container {
+  display: flex;
+  background: white;
+  width: 1200px;
+  height: 800px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.marketflow img {
+  width: 655px;
+  height: 688px;
+  flex-shrink: 0;
+  padding-top: 45px;
+}
+.marketflow h1 {
+  padding: 35px 0px 0px 25px;
+  margin-top: 32px;
+  color: #406180;
+}
+.login-form {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  gap: 15px;
+  margin-top: 100px;
+  padding: 65px 60px 32px 0px;
+}
+.login-form h2 {
+  font-size: 35px;
+  white-space: nowrap;
+  font-weight: 800;
+  margin-right: 20px;
+}
+p {
+  font-size: 15px;
+  color: #666;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+label {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+input {
+  padding: 17px;
+  border: 1px solid #3b5998;
+  border-radius: 6px;
+}
+button {
+  background-color: #3b5998;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+button:hover {
+  background-color: #2d4373;
+}
